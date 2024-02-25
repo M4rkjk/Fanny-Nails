@@ -1,0 +1,293 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Noto serif";
+}
+
+
+header{
+    height: 500px;
+    text-align: center;
+    background-color: rgb(246, 197, 193);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: 0
+}
+
+#bemutatkozas{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#bem-kep {
+    float: right;
+}
+
+#bem-szoveg {
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.elerhetoseg-doboz{
+    padding: 5px; 
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+}
+
+.elerhetoseg-doboz li::before {
+  content: "";
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 20px;
+  background-image: url(képek/call.png); 
+  background-size: cover;
+}
+
+.elerhetoseg-doboz li.telefon::before {
+  background-image: url('img/call.png');
+  margin: 0 5px;
+}
+
+.elerhetoseg-doboz li.email::before {
+  background-image: url('img/gmail.png');
+  margin: 0 5px;
+}
+
+.elerhetoseg-doboz li.instagram::before {
+  background-image: url('img/instagram.png');
+  margin: 0 5px;
+}
+
+#ponten{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+#felsorolas{
+  text-align: center;
+  list-style-type: none;
+}
+
+.telefon, .email, .instagram{
+    list-style-type: none;
+}
+
+#sec {
+    background-color: rgb(246, 197, 193);
+}
+
+.navbar-brand{
+    color: pink!important;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec1{
+    background-color: rgb(246, 197, 193);
+    height: 45px;
+}
+
+.card-group {
+    margin-top: 50px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid pink;
+}
+
+#tablazat{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  table{
+    width: 800px;
+    border-radius: 20px;
+    border: 6px solid black;
+    background-color: white;
+    padding: 20px;
+    border-spacing: 10px;
+  }
+  
+  th{
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border: 5px solid pink;
+    border-radius: 20px;
+  }
+  
+  td{
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+
+  .foglaljtext{
+    margin-top: 30px;
+  }
+
+form { max-width:420px; margin: auto; }
+
+.feedback-input {
+  color:rgb(92, 89, 89);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid pink;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:pink;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:green; }
+
+.cookie {
+    background-color: #00000094;
+    position: fixed;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+
+.cookie .txt {
+    float: left;
+    width: 65%;
+}
+
+.txt p {
+    color: #c6c6c6;
+}
+
+.cookie .accept {
+    background-color: #40CC79;
+    color: #fff !important;
+    border-radius: 32px;
+    padding: 3px 23px;
+    font-size: 19px;
+}
+
+.cookie .accept:hover {
+    background-color: #30b867;
+}
+
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+  float: right;
+  color: palevioletred;
+  font-size: 20px;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+  color: pink;
+}
+
+.dark,
+.dark * {
+  background-color: #222;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+
+/* .anyuka1 {
+  background-image: url(img/kormok/IMG_3304.jpg);
+  background-color: red;
+  display: flex;
+  opacity: 1;
+  width: 35vw;
+  height: 35vw;
+  filter: blur(0px);
+  height: 0vh;
+  justify-content: center;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.akurva {
+  text-align: center;
+  justify-content: center;
+} */
+
+#szalontext {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#online {
+  color: green;
+}
+
+#offline {
+  color: red;
+}

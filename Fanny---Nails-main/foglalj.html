@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+
+    <title>Fanny - Nails Kezdőlap</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" data-aos="fade-right">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="kezdolap.html">Fanny - Nails</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="kezdolap.html">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kezdolap.html">Kapcsolat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="munkaim.html">Munkáim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="arlista.html">Árlista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="foglalj.html">Foglalj most!</a>
+                </li>
+            </ul>
+            <div class="switch">Sőtét mód ki/be:🌗
+                <span class="inner-switch">OFF</span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<h1 class="text-center foglaljtext">Foglalj időpontot!</h1>
+            <form class="anya">
+                <input name="name" type="text" class="feedback-input" placeholder="Név" />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <input name="date" type="date" class="feedback-input" placeholder="Dátum" />
+                <textarea name="text" class="feedback-input" placeholder="Üzenet"></textarea>
+                <input type="submit" value="Küldés" class="send" onclick="Hitelesites()"/>
+            </form>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

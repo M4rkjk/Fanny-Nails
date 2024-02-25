@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+
+
+
+    <title>Fanny - Nails Kezdőlap</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" data-aos="fade-right">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="kezdolap.html">Fanny - Nails</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="kezdolap.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="munkaim.html">Munkáim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="arlista.html">Árlista</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foglalj.html">Foglalj most!</a>
+                    </li>
+                </ul>
+                <div class="switch">Sőtét mód ki/be:🌗
+                    <span class="inner-switch">OFF</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <span id="szalontext">A szalon jelenleg:  <span id="online">NYITVA</span></span>
+        <div class="logo">
+            <img src="img/main-logo.png" alt="" class="img-fluid">
+        </div>
+    </header>
+
+    <div id="bemutatkozas" data-aos="fade-up">
+        <h2>Bemutatkozás</h2>
+        <img src="img/bemutatkozas.jpg" alt="" class="img-fluid" width="200px" height="300px">
+        <p id="bem-szoveg"> Szeretettel köszöntöm az oldalamon minden kedves leendő és meglévő Vendégemet!
+            Kovács Fanni vagyok 22 éves, okleveles kézápoló és mükőrömépítő.
+            Kislány korom óta érdekel a körömdíszítés, így már a képesítésem megszerzése előtt foglalkoztam ezzel
+            hobbiként.
+            Körülbelül 2018 óta építek körmöket magamnak illetve közeli ismerőseimnek.
+            Célom, hogy a vendégeim elégedetten távozzanak tőlem, munkámat minőségi alapanyagokkal végzem, hogy tartós
+            és kimagasló körmök készüljenek a szalonomba.
+            Tekintsd meg eddigi munkáimat, hogy inspirálódj és válassz a körmök között, mely illene a stílusodhoz és
+            személyiségedhez. Várlak szeretettel szalonomba, ahol kellemes környezetben pihenhetsz és szépülhetsz.
+            Ne habozz, foglalj most időpontot a „<strong>Foglalj most!</strong>” fülön.
+
+        </p>
+    </div>
+
+    <div>
+        <section id="sec1">
+            <h2 data-aos="fade-up">Miért pont én?</h2>
+        </section>
+        <ul id="ponten" data-aos="fade-up" data-aos-duration="1500">
+
+            <div id="felsorolas">
+
+                <li><strong>Szakmai tapasztalat:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Rendelkezem széleskörű tapasztalattal a körömépítés területén, és sokféle stílusban vagyok
+                        jártas.
+                    </li>
+                </ul>
+                <li><strong>Kreativitás:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Képes vagyok egyedi és divatos körömtervezéseket alkotni, amelyek kiemelik a vendégeim stílusát
+                        és
+                        személyiségét.
+                    </li>
+                </ul>
+                <li><strong>Trendkövetés:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Mindig naprakész vagyok a legújabb trendekkel és technikákkal, így garantálhatom a vendégeimnek
+                        a
+                        divatos
+                        körömstílusokat.
+                    </li>
+                </ul>
+                <li><strong>Precizitás és részletesség:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Rendkívül gondos vagyok a munkámban, és fontosnak tartom a részletek precíz kivitelezését.
+                    </li>
+                </ul>
+                <li><strong>Ügyfélközpontúság:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;"> Kiemelkedő ügyfélkezelési készségeiddel biztosítod, hogy minden
+                        vendéged elégedett legyen, és
+                        pozitív
+                        élménnyel távozzon.</li>
+                </ul>
+                <li><strong>Higiénia és biztonság:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Szigorúan betartod a higiéniai és biztonsági előírásokat, ezáltal garantálod a vendégeid számára
+                        a
+                        biztonságos környezetet.
+                    </li>
+                </ul>
+                <li><strong>Széleskörű szolgáltatások:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Kínálsz változatos körömszolgáltatásokat, beleértve a körömfestést, díszítést, körömépítést és
+                        egyéb
+                        kezeléseket.
+                    </li>
+                </ul>
+                <li><strong>Kiváló minőségű anyagok:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Csak magas minőségű és biztonságos körömépítő anyagokat használsz, amelyek tartós és esztétikus
+                        eredményeket
+                        garantálnak.
+                    </li>
+                </ul>
+                <li><strong>Tanulásra való nyitottság:</strong></li>
+                <ul>
+                    <li style="margin-bottom: 20px;">
+                        Folyamatosan képzed magad, hogy mindig naprakész legyél az új technikákkal és eszközökkel, és
+                        ezt az új
+                        tudást alkalmazod a munkádban.
+                    </li>
+                </ul>
+                <li><strong>Elkötelezettség az egyedi igények iránt:</strong></li>
+                <ul>
+                    <li>
+                        Figyelembe veszed minden vendéged egyedi igényeit és elképzeléseit, hogy személyre szabott
+                        körömdíszítéseket
+                        és kialakításokat készíts nekik.
+                    </li>
+                </ul>
+        </ul>
+    </div>
+    </div>
+
+    <section id="sec" data-aos="fade-up" data-aos-duration="1500">
+        <div class="elerhetoseg-doboz active" id="kapcsolat">
+            <h2 id="kapcsolat">Kapcsolat</h2>
+            <ul>
+                <li class="telefon">06304266963</li>
+                <li class="email">fannikovacs517@gmail.com</li>
+                <li class="instagram">fanny-nails</li>
+            </ul>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.1052824053604!2d17.62762587592985!3d47.68237528274246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476bbf07f63b3d39%3A0xf6cc77db8b2e6c6a!2sJedlik%20wc!5e0!3m2!1shu!2shu!4v1707252446368!5m2!1shu!2shu"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="cookie">
+        <div class="txt">
+            <p class="">
+                A weboldal sütiket (cookie-kat) használ, hogy biztonságos böngészés mellett a legjobb felhasználói
+                élményt nyújtsa.<a href="#" target="_blanck"> Cookie Policy.</a>
+            </p>
+        </div>
+        <div>
+            <a class="btn accept">Elfogad</a>
+        </div>
+    </section>
+    <script>$(".accept").click(function () {
+            $(".cookie").hide();
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

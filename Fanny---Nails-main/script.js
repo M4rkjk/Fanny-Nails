@@ -13,8 +13,9 @@ function Hitelesites() {
     var name = document.forms[0]["name"].value;
     var email = document.forms[0]["email"].value;
     var date = document.forms[0]["date"].value;
+    var time = document.forms[0]["time"].value;
 
-    if (name === "" || email === "" || date === "") 
+    if (name === "" || email === "" || date === "" || time === "") 
     {
         alert("Minden mezőt ki kell tölteni!");
     } 
@@ -26,15 +27,6 @@ function Hitelesites() {
 }
 
 
-// document.querySelector(".anyu")
-// .addEventListener("click", function(){
-//     document.querySelector(".card-group").style.filter = "blur(5px)";
-//     document.querySelector(".apu").style.filter = "blur(10px)";
-//     document.querySelector(".anyuka1").style.display = "flex";
-//     document.querySelector(".anyuka1").style.oapcity = "1";
-//     document.querySelector(".anyuka1").style.height = "20vw";
-//     document.querySelector(".anyuka1").style.transition = "1s";
-// })
 
 function frissitSzalonAllapot() {
     var jelenlegiIdo = new Date();

@@ -261,24 +261,6 @@ textarea {
 }
 
 
-/* .anyuka1 {
-  background-image: url(img/kormok/IMG_3304.jpg);
-  background-color: red;
-  display: flex;
-  opacity: 1;
-  width: 35vw;
-  height: 35vw;
-  filter: blur(0px);
-  height: 0vh;
-  justify-content: center;
-  transition: cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.akurva {
-  text-align: center;
-  justify-content: center;
-} */
-
 #szalontext {
   font-size: 2vw;
   font-weight: bold;
